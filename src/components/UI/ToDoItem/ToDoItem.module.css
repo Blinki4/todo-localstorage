@@ -1,0 +1,50 @@
+.todoItem {
+    width: 350px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: var(--color-light);
+    color: var(--color-accent);
+    font-size: 18px;
+    /*transition: var(--transition);*/
+}
+
+.todoItem:hover {
+    border: 2px solid var(--color-accent);
+    /*transform: scale(1.1);*/
+}
+
+.todoItemContent {
+    overflow-x: hidden;
+    padding-right: 10px;
+}
+
+.todoItemModalContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    font-size: 18px;
+
+}
+
+.todoItemModalTitle {
+    color: var(--color-accent);
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.todoItemModalText {
+    color: var(--color-accent);
+    font-weight: normal;
+    width: 380px;
+}
+
+.todoItemBtns {
+    display: flex;
+    column-gap: 5px;
+}

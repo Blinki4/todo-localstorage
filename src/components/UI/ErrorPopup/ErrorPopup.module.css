@@ -1,0 +1,37 @@
+.errorPopup {
+    position: fixed;
+    display: none;
+    bottom: 40px;
+    left: 250px;
+    right: 250px;
+    z-index: 10000;
+    transition: var(--transition);
+    animation: reverse showPopup 0.3s;
+}
+
+.errorPopupContent {
+    min-height: 40px;
+    min-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-error);
+    font-size: 18px;
+}
+
+.errorPopup.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: showPopup 0.3s ease both;
+}
+
+@keyframes showPopup {
+    from {
+        transform: translateY(300px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}

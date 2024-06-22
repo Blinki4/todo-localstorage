@@ -1,0 +1,19 @@
+.customInput {
+    width: 200px;
+    border: 2px solid var(--color-accent);
+    background-color: var(--color-light);
+    color: var(--color-accent);
+    height: 40px;
+    font-size: 18px;
+    
+}
+
+.customInput::placeholder {
+    color: var(--color-main-dark);
+    text-align: center;
+}
+
+.customInput:focus {
+    border: 2px solid var(--color-accent);
+    outline: none;
+}

@@ -1,0 +1,19 @@
+.customTextArea {
+    resize: none;
+    border: 2px solid var(--color-accent);
+    background-color: var(--color-light);
+    color: var(--color-accent);
+    width: 200px;
+    height: 100px;
+    font-size: 18px;
+}
+
+.customTextArea::placeholder {
+    color: var(--color-main-dark);
+    text-align: center;
+}
+
+.customTextArea:focus {
+    border: 2px solid var(--color-accent);
+    outline: none;
+}

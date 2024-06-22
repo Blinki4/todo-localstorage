@@ -1,0 +1,30 @@
+.importantBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid var(--color-accent);
+    height: 100%;
+    aspect-ratio: 1;
+}
+
+svg {
+    color: var(--color-accent);
+}
+
+
+/*.crossBtn svg:hover {*/
+/*    color: var(--color-error);*/
+/*}*/
+
+.importantBtn svg:hover {
+    color: orange;
+}
+
+.importantBtn.active {
+    background-color: orange;
+}
+
+.importantBtn.active svg:hover {
+    color: var(--color-accent);
+}

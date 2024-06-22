@@ -1,0 +1,27 @@
+.customBtn {
+  height: 40px;
+  width: 200px;
+  background-color: var(--color-accent);
+  color: var(--color-light);
+  border: none;
+  outline: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+
+.customBtn:hover {
+  background-color: var(--color-light);
+  color: var(--color-accent);
+  transform: scale(1.1);
+}
+
+.customBtn a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-light);
+}
+
+.customBtn:hover a {
+  color: var(--color-accent);
+}
